@@ -18,6 +18,7 @@ def arp_scan(ip):
          [
              {'IP': '192.168.2.1', 'MAC': 'c4:93:d9:8b:3e:5a'}
          ]
+
      """
     request = Ether(dst="ff:ff:ff:ff:ff:ff") / ARP(pdst=ip)
 
